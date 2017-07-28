@@ -1,0 +1,22 @@
+{
+"items":[
+{ "id": 0, "itemno": "A001221", "image": "images/prodimg/A001221.jpg", "description": "PWC BATTERY ETX16L", "price": 153.5, "category": "ELECTRICAL", "selected": 0 },
+{ "id": 1, "itemno": "A001222", "image": "images/prodimg/A001222.jpg", "description": "PWC BATTERY YB16CLBFP", "price": 89.99, "category": "ELECTRICAL", "selected": 0 },
+{ "id": 2, "itemno": "A001275", "image": "images/prodimg/A001275.jpg", "description": "BATTERY, UPS 1275", "price": 57.5, "category": "ELECTRICAL", "selected": 0 },
+{ "id": 3, "itemno": "A002401", "image": "images/prodimg/A002401.jpg", "description": "MARINE DUAL PURPOSE", "price": 168.95, "category": "ELECTRICAL", "selected": 0 },
+{ "id": 4, "itemno": "A002402", "image": "images/prodimg/A002402.jpg", "description": "MARINE STARTING", "price": 125.95, "category": "ELECTRICAL", "selected": 0 },
+{ "id": 5, "itemno": "A002404", "image": "images/prodimg/A002404.jpg", "description": "BATTERY, EAST PENN 75 AMP", "price": 108.5, "category": "ELECTRICAL", "selected": 0 },
+{ "id": 6, "itemno": "A002416", "image": "images/prodimg/A002416.jpg", "description": "MARINE STARTING BLACK 24M7", "price": 188.95, "category": "ELECTRICAL", "selected": 0 },
+{ "id": 7, "itemno": "A002701", "image": "images/prodimg/A002701.jpg", "description": "MARINE DEEP CYCLE", "price": 226.25, "category": "ELECTRICAL", "selected": 0 },
+{ "id": 8, "itemno": "A002750", "image": "images/prodimg/A002750.jpg", "description": "MARINE STARTING", "price": 235.75, "category": "ELECTRICAL", "selected": 0 },
+{ "id": 9, "itemno": "A003101", "image": "images/prodimg/A003101.jpg", "description": "MARINE DEEP CYCLE", "price": 249.95, "category": "ELECTRICAL", "selected": 0 },
+{ "id": 10, "itemno": "A006016", "image": "images/prodimg/A006016.jpg", "description": "BATTERY, DURACELL 6 VOLT GC2", "price": 197.5, "category": "ELECTRICAL", "selected": 0 },
+{ "id": 11, "itemno": "A012006", "image": "images/prodimg/A012006.jpg", "description": "BATTERY, GEL 6 VOLT 8GGC2", "price": 440, "category": "ELECTRICAL", "selected": 0 },
+{ "id": 12, "itemno": "A012400", "image": "images/prodimg/A012400.jpg", "description": "BATTERY, GRP24 GEL -DEKA", "price": 327.35, "category": "ELECTRICAL", "selected": 0 },
+{ "id": 13, "itemno": "A012700", "image": "images/prodimg/A012700.jpg", "description": "GEL BATTERY GRP 27", "price": 415, "category": "ELECTRICAL", "selected": 0 },
+{ "id": 14, "itemno": "A013100", "image": "images/prodimg/A013100.jpg", "description": "BATTERY, GRP31 GEL - DEKA", "price": 455, "category": "ELECTRICAL", "selected": 0 },
+{ "id": 15, "itemno": "A014000", "image": "images/prodimg/A014000.jpg", "description": "BATTERY, 4D GEL - DEKA", "price": 865, "category": "ELECTRICAL", "selected": 0 },
+{ "id": 16, "itemno": "A018000", "image": "images/prodimg/A018000.jpg", "description": "BATTERY, 8D GEL - DEKA", "price": 999.95, "category": "ELECTRICAL", "selected": 0 },
+{ "id": 17, "itemno": "A041300", "image": "images/prodimg/A041300.jpg", "description": "MARINE DUAL PURPOSE 4D", "price": 325, "category": "ELECTRICAL", "selected": 0 }
+]
+}

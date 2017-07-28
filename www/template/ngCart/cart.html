@@ -1,0 +1,47 @@
+<ion-view view-title="Cat-Log Cart">
+<ion-nav-buttons side="right">
+    <a href="/#/home" class="button button-icon button-clear ion-home"></a>
+</ion-nav-buttons>
+<ion-content>
+
+<div class="alert alert-warning" role="alert" ng-show="ngCart.getTotalItems() === 0">
+    Your cart is empty
+</div>
+
+<div class="table-responsive col-lg-12" ng-show="ngCart.getTotalItems() > 0">
+
+  <!--Item List-->
+  <div class="list">
+
+      <div ng-repeat="item in ngCart.getCart().items track by $index" class="item item-thumbnail-left">
+      <img src={{item.image}}>
+      <small>{{item.itemno}}</small>
+      <small><h2>{{ item.getName() }}</h2></small>
+      <h2>Quantity: <i class="icon ion-android-remove" ng-class="{'disabled':item.getQuantity()==1}"
+                ng-click="item.setQuantity(-1, true)"></i>  {{ item.getQuantity() | number }}  <i class="icon ion-android-add" ng-click="item.setQuantity(1, true)"></i>
+        <span style="float:right">{{ item.getPrice() | currency }}</br>{{ item.getTotal() | currency }}</span></h2>
+
+
+
+      </div>
+  </div>
+
+
+
+</div>
+
+
+<style>
+    .ngCart.cart span[ng-click] {
+        cursor: pointer;
+    }
+    .ngCart.cart .glyphicon.disabled {
+        color:#aaa;
+    }
+</style>
+
+</ion-content>
+<div class="bar bar-footer bar-balanced">
+    <div class="title"><span style="float:right">US{{ ngCart.totalCost() | currency }}|EC{{ngCart.totalCost() * 2.7 | currency }}|ECDP{{ngCart.totalCost() * 3 | currency }}</span></div>
+</div>
+</ion-view>

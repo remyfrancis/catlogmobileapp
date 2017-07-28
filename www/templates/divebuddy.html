@@ -1,0 +1,43 @@
+<ion-view view-title="Cat-Log">
+<ion-content>
+<div class="col-md-10 col-sm-8 main-content">
+            <!--Main content code to be written here -->
+
+
+            <!-- Angular Data -->
+        <div class="row">
+            <div class="row row-content">
+            <div class="col-lg-12">
+                <h2 class="page-header">Diving</h2>
+                <p><label for="search">Search For:</label> <input type="text" placeholder="Enter Search Term" ng-model="filtText" id="search"></p>
+            </div>
+
+
+
+        </div>
+        </div>
+
+
+
+
+        <!--Item List-->
+        <div class="list">
+
+        <div ng-repeat="item in diving | filter:filtText" class="item item-thumbnail-left" href="#" >
+        <img ng-src={{item.image}}>
+        <small>{{item.itemno}}</small>
+        <h2>{{item.name}}</h2>
+        <p>Duty Free US: {{item.price | currency}}</br>Duty Free EC: {{item.dfec | currency}}</br>Duty Paid EC: {{(item.dpec | currency)}}</p>
+        <ngcart-addtocart id="{{ item.id }}" name="{{ item.name }}" price="{{ item.price }}" quantity="1" quantity-max="30" data="item">Add To Cart</ngcart-addtocart>
+        </div>
+
+        </div>
+
+
+
+        </div>
+</ion-content>
+<div class="bar bar-footer bar-balanced">
+    <div class="title"><a href="#/app/summary">Quote</a></div>
+</div>
+</ion-view>
